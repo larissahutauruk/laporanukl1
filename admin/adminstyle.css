@@ -1,0 +1,59 @@
+/* Gaya untuk judul halaman */
+h1 {
+  text-align: center;
+  color: rgba(128, 128, 128, 0.54);
+  font-size: 4vh;
+  min-height: 25vh;
+}
+table {
+  width: 35%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+th {
+  background-color: #ccc;
+  padding: 8px;
+  text-align: left;
+  border-radius: 5px;
+  border: 3.5px solid #fff;
+}
+
+tr {
+  background-color: ghostwhite;
+  padding: 3.2px;
+  text-align: left;
+}
+
+/*tinggi kolom*/
+td {
+  padding: 4.5px;
+  color: black;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  border: 3.5px solid #fff;
+}
+
+/*Edit dan Delete*/
+.edit {
+  background-color: slategray;
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid #00000067;
+  border-radius: 4px;
+  margin-right: 5px;
+  text-decoration: underline;
+}
+.delete {
+  background-color: #333;
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid #00000067;
+  border-radius: 4px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.edit:hover,
+.delete:hover {
+  background-color: snow;
+}
